@@ -1,0 +1,76 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color:black;
+  background: #f5f5f5;
+
+}
+/* Nav Announcements */
+.announcement-heading {
+  font-size: 50px;
+  margin: 0;
+}
+
+.announcement-text {
+  margin: 0;
+}
+
+.jumbotron{
+	background-image:url('../../image/background.jpg');
+	border-bottom: 1px solid #666;
+	box-shadow: 2px 2px 2px #CCC;
+}
+.other{
+	background:#f3be08;
+	
+
+}
+.other h2{
+	vertical-align: middle;
+
+}
+
+div.col-md-3 .col-md-12{
+	background-color: #f5f5f5;
+	border:1px solid #CCC;
+	padding-top: 5px;
+	color:#3276B1;
+	margin-bottom: 5px;
+}
+div.bot{
+	clear: both;
+	height: 10px;
+}
+.img-rounded{
+	border:1px solid #CCC;
+	padding: 3px;
+	background-color: #f5f5f5;
+}
+div.ada{
+	background-color: #f5f5f5;
+	padding-top: 20px;
+
+}
+.login-form{
+	margin: auto;
+	width: 25%;
+	border-radius: 5px;
+	border:1px solid #CCC;
+	min-height: 150px;
+	padding: 10px;
+}
+#pagination {
+	background: #f5f5f5;
+	padding:5px;
+	margin-bottom: 10px;
+}
+#pagination a,#pagination strong{
+	background-color:#4B8CF7; 
+	color:white; padding:5px; 
+	border-radius:3px; 
+	border:1px solid #3079ED;
+	margin-bottom: 5px; 
+	text-decoration: none;
+
+}
